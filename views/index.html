@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lista de tarefas</title>
+	<link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Lista de Tarefas</h2>
+		<form method="post">
+			<input type="text" name="tarefa" placeholder="Tarefa">
+			<input type="submit" name="acao" value="Adicionar">	
+		</form>
+
+		<div class="tarefas">
+			<% tarefasList.forEach((item, i) => { %>
+				<p><%= item %> | <a href="/deletar/<%= i %>">Deletar</a></p>
+			<% }) %>
+		</div>
+	</div>
+</body>
+</html>
