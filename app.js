@@ -37,4 +37,3 @@ app.listen(port,()=>{
 	console.log('rodando')
 })
 
-//parei na aula "desenvolvendo projeto prático 1/2 curso de nodejs 8 min"
