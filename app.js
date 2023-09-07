@@ -36,5 +36,3 @@ app.get('/deletar/:id', (req, res)=>{
 app.listen(port,()=>{
 	console.log('rodando')
 })
-
-//parei na aula "criando rotas básicas e preparando arquivos modulo projeto estático"
