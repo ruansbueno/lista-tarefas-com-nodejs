@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #49039e;
+    background: #edf2ed;
 }
 
 .container{
@@ -20,7 +20,10 @@ body{
     background-color:#fff;
     padding: 5px 10px;
     border-radius:5px;
-    text-align: center
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 51px -21px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 51px -21px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 51px -21px rgba(0,0,0,0.66);
 }
 
 h2{
@@ -69,5 +72,5 @@ p{
 }
 
 p:nth-of-type(2n+1){
-    background-color: #cca4fc;
+    background-color: #edf2ed;
 }
